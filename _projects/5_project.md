@@ -1,12 +1,12 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
+title: 🧠 🎨 1. UMAP visualization
+description: Use UMAP to visualize your own data!
 img: assets/img/1.jpg
-importance: 3
-category: fun
+importance: 2
+category: Jupyter Notebook
 ---
-
+ 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.

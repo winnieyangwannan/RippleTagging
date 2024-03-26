@@ -1,13 +1,18 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
+title: 🧠 🧐 3. Decoding Consistency
+description: Test decoding consistency between high- and low-dimensional space!
 img: assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3
-category: work
+category: Colab Notebook
 ---
 
+Let's get started!
+
+🔗 Follow the demo code with Colab Notebook
+[here](https://colab.research.google.com/drive/179FjU5gVd9GFCZVUNw9RYPXw5Mgtjhws?usp=drive_link)!
+---
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.

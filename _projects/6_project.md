@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
+title: 🛠️ Set up
+description: Guide to set up conda environment 
 img:
-importance: 4
-category: fun
+importance: 1
+category: Jupyter Notebook
 ---
 
 Every project has a beautiful feature showcase page.

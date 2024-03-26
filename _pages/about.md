@@ -2,24 +2,78 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+[//]: # (subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.)
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+[//]: # (profile:)
+
+[//]: # (  align: right)
+
+[//]: # (  image: prof_pic.jpg)
+
+[//]: # (  image_circular: false # crops the image to make it circular)
+
+[//]: # (  more_info: >)
+
+[//]: # (    <p>555 your office number</p>)
+
+[//]: # (    <p>123 your address street</p>)
+
+[//]: # (    <p>Your City, State 12345</p>)
+
+news: false # includes a list of news items
+paper: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+Wannan Yang<sup>1,3</sup>, Chen Sun<sup>2</sup>, Roman Huszár<sup>1,3</sup>, Thomas Hainmueller<sup>1,4</sup>, Kirill Kiselev<sup>3</sup>, György Buzsáki<sup>1,3*</sup>
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Affiliations:
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+1.Neuroscience Institute and Department of Neurology, NYU Grossman School of Medicine, New York University, New York, USA,
+2.Mila - Quebec AI Institute, Montréal, Canada,
+3.Center for Neural Science, New York University, New York, USA,
+4.Department of Psychiatry, New York University Langone Medical Center, New York, USA  
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+---
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/about/cartoon_twitter.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+
+</div>
+
+
+
+
+---
+
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <iframe width="677" height="333" src="https://www.youtube.com/embed/BuAeQmzt5Lc" title="UMAP manifold (supervised) for figure-8 maze task." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <iframe width="677" height="333" src="https://www.youtube.com/embed/BiV5FDGRY-c" title="UMAP manifold (unsupervised) for figure-8 maze task." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
+    </div>
+</div>
+<div class="caption">
+    ''
+</div>
+
+
+---
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/about/fig4.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+
+
+</div>
