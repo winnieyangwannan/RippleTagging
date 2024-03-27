@@ -72,10 +72,13 @@ rates as a function of the linearized position (from 0 to 200-cm) were plotted.
 ---
 
 # Part 2:  Dimensionality Reduction
-Humans are visual creatures. We need to see in order to believe. The dual sided probe we used for recording allows us to record up to 500 neurons simultaneously.
+Humans are visual creatures. Good visualization can give us valuable intuition of the structure of the data that is otherwise
+hard to grasp.
+
+The dual sided probe we used for recording allows us to record up to 500 neurons simultaneously.
 But the large number of neurons in our data means we are dealing with high dimensional data (the number of dimension scales with the number
 of neurons). 
-When we have one neuron, visualizing the activity of that single cell across time is easy -- the tuning curve in the fig. 2 above can gave us 
+When we have one neuron, visualizing the activity of that single cell across time is easy -- the tuning curve in the fig. 2 above can give us 
 a clear picture of how individual cell activity evolve over positions across trials. But as soon as we have more than three neurons, we lost our ability
 to visualize the dynamics of the population in one coherent picture.
 
