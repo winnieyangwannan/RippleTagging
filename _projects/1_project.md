@@ -17,14 +17,14 @@ The companion notebook will walk you through the steps of visualizing data with 
 generated the UMAP visualization from raw spiking data!
 
 > ##### NOTE!
-> Interactive images (black background) in this page are mostly interactive plots might 
+> Figures (black background) in this page are mostly interactive plots, and they might 
 > take a few seconds to load!  You can rotate, zoom in and play with the manifold.
 {: .block-warning }
 
 
 ---
 
-# Part 1: Introduction
+# Part 1: Motivation
 
 Using dual-side silicon probe, we were able to record from many hundreds of neurons simultaneously in the dorsal CA1 region of
 the hippocampus while the animal perform the figure-8 maze task.
@@ -43,9 +43,9 @@ colored by trial block number.
 
 When we inspected single neuron activity, we found that many neurons changed their firing rates across trials. Some cells fired with 
 higher firing rates during early trials, some fired with higher firing rate during late trials, and some cells' place field remapped
-across trials. The behavior of the those individual cells gave us a hint that we might be able to distinguish which trial the animal is currently 
+across trials. The behavior of those individual cells gave us a hint that we might be able to distinguish which trial the animal is currently 
 at based on the different spiking patterns of the CA1 neurons across trials. Since single cell activity is noisy, we wondered if we can find a way to leverage the activity
-of many hundreds of cells? And if so,we might be able to accurately decode which trial the animal is currently at based on population activity rather than activities of single cells.
+of many hundreds of cells. And if so, we might be able to accurately decode which trial the animal is currently at based on population activity rather than activities of single cells.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -57,19 +57,16 @@ of many hundreds of cells? And if so,we might be able to accurately decode which
 Fig 2. Spatial tuning curve of example cells.
 </div>
 {% details Click here to read the full figure legend. %}
-The firing rate in space (linearized position on the figure-8 maze) of 6 example neurons across
+The firing rate in space (linearized position on the figure-8 maze) of 3 example neurons across
 different trials in one representative session. The tuning curves were color-coded by trial block number 
 (cold color for early trials and warm color for late trials). For each example cell, its firing
-rates as a function of the linearized position (from 0 to 200-cm) for each of the two arms of the
-figure-8 maze were plotted separately. Most cells exhibited rate remapping or global remapping
-across the two arms of the radial arm maze.
+rates as a function of the linearized position (from 0 to 200-cm) were plotted.
 
-(A) Two example cells that fired with higher firing rates during early trials. (Left) left arm trials.
-(Right) right arm trials.
+(A) An example cell that fired with higher firing rates during early trials. 
 
-(B) Two example cells that fired with higher firing rate during late trials.
+(B) An example cell that fired with higher firing rate during late trials.
 
-(C) Two example cells with place field remapping across trials.
+(C) An example cell with place field remapped across trials.
 {% enddetails %}
 
 ---
@@ -126,6 +123,10 @@ What was really surprising and unexpected was when we colored the neural manifol
 of states that corresponded to trial sequences. This means that population activity in the hippocampus indeed encode the sequence 
 of different events!
 
+Heraclitus once said that “No man ever steps in the same river twice. For it’s not the same river and he’s not the same man.”
+Well, the brain is also not the same brain! Even though the animal went to the same location many times repeatedly, 
+the neural activity was never the same again! It changes each time. Moreover, it changes in a very systematic way, organized in the same order as the unfolding of the events in time!
+
 ---
 
 # Part 3: UMAP visualization on different datasets
@@ -174,28 +175,11 @@ were colored by trial block number.
 {% enddetails %}
 
 ---
-# Part 4: Down-sampling and its impact on neural embedding
-
-When we down-sampled the number of cells included for generating the UMAP embedding, we observed that the trial specific pattern degraded.
-When there were less than 100 cells, different trials were almost indistinguishable. This simple down-sampling analysis 
-shows the importance of recording from large population of cells (thanks to the dual-sided probe that maximize the number of
-simultaneously recorded cells)!
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="/assets/img/demo/1/downsample.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-<div class="caption">
-    Fig 6. Manifolds generated from down-sampling the number of cells included for UMAP
-embedding. 
-</div>
----
-# Part 5: Why UMAP?
+# Part 4: Why UMAP?
 At this point, you might be wondering why we use UMAP and not simple linear dimensionality reduction methods like PCA.
-The short answer is that PCA does not generate clear visualization in low dimensional space (3D). However, PCA can still be used
-for decoding if including more principle component (working in a higher dimensional space). Check out our next demo for more 
-ciscussion!
+The short answer is that PCA does not generate as great visualization in the low dimensional space (3D). However, PCA 
+can still be used for decoding if including more principal component (working in a higher dimensional space). Check out our
+next demo for further discussion regarding different methods!
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -213,9 +197,29 @@ embedding.
 </div>
 
 ---
+# Part 5: Down-sampling and its impact on neural embedding
+
+When we down-sampled the number of cells included for generating the UMAP embedding, we observed that the trial specific pattern degraded.
+When there were less than 100 cells, different trials were almost indistinguishable. This simple down-sampling analysis 
+shows the importance of recording from large population of cells (thanks to the dual-sided probe that maximize the number of
+simultaneously recorded cells)!
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="/assets/img/demo/1/downsample.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Fig 6. Manifolds generated from down-sampling the number of cells included for UMAP
+embedding. 
+</div>
+
+
+
+---
 # How to cite us ? 
 
-Enjoyed reading this post and found our demo code useful? It can be cited as follows:
+Enjoyed reading this post and found our demo code useful? Our paper can be cited as follows:
 
 Wannan Yang, Chen Sun, Roman Huszár, Thomas Hainmueller, Kirill Kiselev, György Buzsáki. 
 "Selection of experience for memory by hippocampal sharp wave ripple." _Science_ (2024).

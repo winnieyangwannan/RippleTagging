@@ -11,7 +11,7 @@ toc:
 
 
 
-The companion notebook will walk you through the steps of visualizing data with UMAP! 
+The companion notebook will walk you through the steps of trial identity decoding form spiking data! 
 
 🔗 Follow the demo code in Colab Notebook
 [here](https://colab.research.google.com/drive/1D3BdR_TwraXgx7FEAUYx9MZkX5QEWjb1?usp=drive_link)! You will learn how to decode trial identity from population activity using four different methods!
@@ -19,11 +19,12 @@ The companion notebook will walk you through the steps of visualizing data with 
 
 
 ---
+# Part 1: How does UMAP work?
 
-# Part 1: Supervised dimensionality reduction
+# Part 2: Supervised dimensionality reduction
 
 In order to better visualize the trial-by-trial representation drift and check if the progression of population representation 
-aligned with event sequences, we took advantage of the [supervised dimensionality reduction feature of the UMAP](https://umap-learn.readthedocs.io/en/latest/supervised.html).
+drift aligns with the order of the events, we took advantage of the [supervised dimensionality reduction feature of the UMAP](https://umap-learn.readthedocs.io/en/latest/supervised.html).
 
 We plotted the result of supervised dimensionality reduction with UMAP and first colored it with linearized position (Fig. 1) and then
 colored it with trial block number (Fig. 2).
@@ -57,7 +58,7 @@ on the figure-8 maze.Both the neural manifold and the running trajectory were co
 
 ---
 
-# Part 2: Trial decoding
+# Part 3: Trial decoding
 
 To quantify the trial sequence information present in the state space, we tested if trial block membership can be 
 accurately decoded from the population activity. 
@@ -79,7 +80,7 @@ specific label was assigned to each trial block. Decoding was performed using a 
 on the figure-8 maze.Both the neural manifold and the running trajectory were colored by trial block number. 
 </div>
 
-# Part 3: Cross-validation with 'leaving one trial out'
+# Part 4: Cross-validation with 'leaving one trial out'
 
 For cross-validation, we used the standard 10-fold cross-validation as well as the more targeted 'leaving one trial out' method.
 We want to highlight the 'leaving one trial out' cross-validation procedure here because we believe it is the most convincing evidence
@@ -136,7 +137,7 @@ their nearest neighbors.
 
 
 
-# Part 4: Decoding from the original high-dimensional space and PCA space
+# Part 5: Decoding from the original high-dimensional space and PCA space
 
 Can we trust the decoding result based on uMAP embedding? We know that dimensionality reduction can potentially distort the 
 relationship between data points in the original dimensional space. In order to make sure our conclusion is not the result of
@@ -155,7 +156,7 @@ As we can see, all those methods yield consistent conclusion with UMAP.
 
 ---
 
-# Part 5: Can we use UMAP for trial decoding?
+# Part 6: Can we use UMAP for trial decoding?
 Does UMAP introduce any distortion that could affect accuracy of the trial decoding results? In oder to demonstrate that we
 could use UMAP for trial decoding, we need to demonstrate that the trial block membership is consistent between the high and low-dimensional
 space.
@@ -188,7 +189,7 @@ the example test data point (purple triangle) was decoded to be trial block 3 be
 ---
 
 
-# Part 6: Can electrode drift explain what we see?
+# Part 7: Can electrode drift explain what we see?
 
 <div class="row mt-3">
     {% include figure.liquid path="/assets/img/demo/2/stationary.png" class="img-fluid rounded z-depth-1" zoomable=true %}
