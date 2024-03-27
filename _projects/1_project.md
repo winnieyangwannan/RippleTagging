@@ -130,6 +130,17 @@ Heraclitus once said that â€œNo man ever steps in the same river twice. For itâ€
 Well, the brain is also not the same brain! Even though the animal went to the same location many times repeatedly, 
 the neural activity was never the same again! It changes each time. Moreover, it changes in a very systematic way, organized in the same order as the unfolding of the events in time!
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <iframe width="677" height="500" src="https://www.youtube.com/embed/BiV5FDGRY-c" title="UMAP manifold (unsupervised) for figure-8 maze task." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
+    </div>
+</div>
+<div class="caption">
+    
+</div>
+
+
+
 ---
 
 # Part 3: UMAP visualization on different datasets

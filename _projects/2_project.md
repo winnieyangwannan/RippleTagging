@@ -143,6 +143,16 @@ what we see is through decoding -- if we believe that the hippocampus not only r
 we are expecting to be able to decode the trial identity accurately from the hippocampal population activity. This is what 
 we are going to do in the next part!
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <iframe width="677" height="500" src="https://www.youtube.com/embed/BuAeQmzt5Lc" title="UMAP manifold (supervised) for figure-8 maze task." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+</div>
+<div class="caption">
+    
+</div>
+
+
 ---
 
 # Part 3: Trial decoding
@@ -241,51 +251,37 @@ relationship between data points in the original dimensional space. In order to 
 potential distortion during the UMAP dimensionality reduction process, we decoded from the original high-dimensional space (Fig.6 B and C)
 as well as PCA space (Fig.7 A).
 
-Fig. 6A illustrates the main steps of decoding from the original high dimensional space. As you can see, it follows the similar basic logic as decoding
-from the low-dimensional space (Fig.7 B). The only difference is that instead of performing kNN on the low-dimensional space, 
+We can decode from the PCA space in an analogous way as decoding from the low dimensional embedding from UMAP.
+Our [previous post](https://winnieyangwannan.github.io/RippleTagging/projects/1_project/) showed that PCA does not generate good visualization
+comparing to UMAP (Fig. 7 A and B). However, that does not mean that we cannot decode from the PCA space! As we increase the number of principal components in 
+the low-dimensional space, we can see that the decoding error actually decrease (Fig.7 D). If we use the first 15 principal components 
+(decoding from a 15 dimensional space), the decoding accuracy is already comparable with decoding from the UMAP space (Fig.7 C and E).
+
+
+<div class="row mt-3">
+    {% include figure.liquid path="/assets/img/demo/2/pca.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
+<div class="caption">
+    Fig 7. Comparing PCA and UMAP.
+</div>
+
+
+
+Fig. 8A illustrates the main steps of decoding from the original high dimensional space. As you can see, it follows the similar basic logic as decoding
+from the low-dimensional space (Fig.8 B). The only difference is that instead of performing kNN on the low-dimensional space, 
 kNN was applied on the original high-dimensional space. 
 
 Another point worth to note when decoding from the high dimensional space is that when finding the nearest neighbour for decoding, the notion of distance is inevitable. What
-is the correct distance metric to use? In our paper, we compared both Euclidean distance as well as the cosine similarity as distance metric.
-
-Similarly, we can decode from the PCA space in an analogous way as decoding from the low dimensional embedding from UMAP.
+is the correct distance metric to use? In our paper, we compared both Euclidean distance, as well as the cosine similarity as distance metric.
 
 <div class="row mt-3">
-    {% include figure.liquid path="/assets/img/demo/2/validation_methods_other_github.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid path="/assets/img/demo/2/high_low.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 <div class="caption">
-    Fig 7. Confusion matrix of trial block decoding results.
-</div>
-
-As we can see, all those methods yield consistent conclusion with UMAP.
-
-
----
-
-# Part 6: Can we use UMAP for trial decoding?
-UMAP can potentially introduce distortion during the dimensionality reduction process, and those distortions could affect
-the accuracy of the trial decoding results. In oder to demonstrate that we could use UMAP for trial decoding, we need to 
-demonstrate that the trial block membership is consistent between the high and low-dimensional space.
-
-Recall that we search for the k nearest neighbor of the test data and use their trial label as the trial label for the test data. 
-This procedure can be applied to both the high-dimensional space as well the low-dimensional space. In order to test if UMAP introduce any distortion
-for trial membership decoding, for each data point, we can simply compute the consistency of the trial membership of the k nearest neighbours
-in the high-dimensional space and the low-dimensional UMAP embedding! If the trial membership the neighbours are consistent, 
-then this means the UMAP dimensionality reduction process does not introduce distortion that affect accuracy of the trial membership decoding.
-
-
-As we can see from Fig.8 C, the trial membership of the first 4 nearest neighbours between the high and low-dimensional space 
-is 100% consistent! Note that this is not to say that UMAP perfectly preserve every little detail in the original high-dimensional space, rather
-this is to say that potential distortion that occurs at the dimensionality reduction process does not affect the trial decoding membership. Thus,
-we can use UMAP to quantify trial decoding.
-
-<div class="row mt-3">
-    {% include figure.liquid path="/assets/img/demo/2/decoding_high_low.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-</div>
-<div class="caption">
-    Fig 8. Consistent trial block membership between the low-dimensional and the original high-dimensional space.
+    Fig 8. Comparing decoding from the original high-dimensional space and the low-dimensional space.
 </div>
 {% details Click here to read the full figure legend. %}
+
 (A) Diagram explaining the main steps of trial block decoding from the original high -dimensional
 space. Step 1: by default, a weighted nearest neighbor (kNN) graph, which connects each
 datapoint to its nearest neighbors, was constructed and used to generate the initial topological
@@ -301,8 +297,52 @@ that in the original high-dimensional space. Step 3: The trial block membership 
 (purple triangle) was decoded by taking the mode of its nearest neighbors in the low -dimensional embedding. For example, 
 the example test data point (purple triangle) was decoded to be trial block 3 because all its three nearest neighbors in the low
 -dimensional space belong to trial 3 block (purple).
+{% enddetails %}
 
-(c) To check whether the UMAP dimensionality reduction process introduced
+
+
+
+As we can see, all those methods yield consistent conclusion with UMAP (Fig 9).
+<div class="row mt-3">
+    {% include figure.liquid path="/assets/img/demo/2/validation_methods_other_github.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
+<div class="caption">
+    Fig 9. Confusion matrix of trial block decoding results.
+</div>
+
+---
+
+# Part 6: Can we use UMAP for trial decoding?
+UMAP can potentially introduce distortion during the dimensionality reduction process, and those distortions could affect
+the accuracy of the trial decoding results. In oder to demonstrate that we could use UMAP for trial decoding, we need to 
+demonstrate that the trial block membership is consistent between the high and low-dimensional space.
+
+Recall that we search for the k nearest neighbor of the test data and use their trial label as the trial label for the test data. 
+This procedure can be applied to both the high-dimensional space as well the low-dimensional space. In order to test if UMAP introduce any distortion
+for trial membership decoding, for each data point, we can simply compute the consistency of the trial membership of the k nearest neighbours
+in the high-dimensional space and the low-dimensional UMAP embedding! If the trial membership the neighbours are consistent, 
+then this means the UMAP dimensionality reduction process does not introduce distortion that affect accuracy of the trial membership decoding.
+
+
+As we can see from Fig.10, the trial membership of the first 4 nearest neighbours between the high and low-dimensional space 
+is 100% consistent! Note that this is not to say that UMAP perfectly preserve every little detail in the original high-dimensional space, rather
+this is to say that potential distortion that occurs at the dimensionality reduction process does not affect the trial decoding membership. Thus,
+we can use UMAP to quantify trial decoding.
+
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="/assets/img/demo/2/consistent.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
+</div>
+<div class="caption">
+    Fig 10. Consistent trial block membership between the low-dimensional and the original high-dimensional space.
+</div>
+{% details Click here to read the full figure legend. %}
+ 
+To check whether the UMAP dimensionality reduction process introduced
 distortions that affected the decoded trial block membership (5-trial block), the consistency between the
 original high- dimensional space and reduced low- dimensional space was plotted. For each data point, the decoded trial block 
 membership of its ten nea rest neighbors in the high-dimensional space and the reduced low-dimensional space were compared.
@@ -311,6 +351,7 @@ trial_high - trial_low = 0 (i.e. being decoded to the same trial block). For the
 , the decoded trial block membership between the high and low-dimensional space was 100% consistent. Thus, UMAP dimensionality
 reduction did not introduce any distortion at the level of trial block decoding results.
 {% enddetails %}
+
 
 
 ---
@@ -322,7 +363,7 @@ Another important issue we need to properly address is recording stability. We n
 is not an artifact of electrode drift.
 
 To this end, we plotted the amplitude of waveform over time as well as compared the spike amplitude in the first quarter and
-the last quarter of the session (Fig. 9). In addition, we also quantified waveform centroid displacement across time
+the last quarter of the session (Fig. 11). In addition, we also quantified waveform centroid displacement across time
 following [Schoonover et al.](https://pubmed.ncbi.nlm.nih.gov/34108681/).
 
 We also did additional comprehensive analysis to demonstrate that excluding the most unstable units does not change our conclusion. For readers interested in 
@@ -334,7 +375,7 @@ Our analyses indicate that electrode drift cannot explain the representational d
     {% include figure.liquid path="/assets/img/demo/2/stationary.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 <div class="caption">
-    Fig 9. Assessment of single-unit stability over time.
+    Fig 11. Assessment of single-unit stability over time.
 </div>
 {% details Click here to read the full figure legend. %}
 (A) Waveform amplitude over time (on-maze duration) for all the cells in an example session. Spikes of

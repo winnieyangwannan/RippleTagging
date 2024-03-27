@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 
 [//]: # (subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.)
@@ -40,7 +40,7 @@ Affiliations:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/about/cartoon_twitter.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/about/cartoon_github.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -55,14 +55,14 @@ Affiliations:
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        <iframe width="677" height="333" src="https://www.youtube.com/embed/BuAeQmzt5Lc" title="UMAP manifold (supervised) for figure-8 maze task." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="677" height="500" src="https://www.youtube.com/embed/BuAeQmzt5Lc" title="UMAP manifold (supervised) for figure-8 maze task." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <iframe width="677" height="333" src="https://www.youtube.com/embed/BiV5FDGRY-c" title="UMAP manifold (unsupervised) for figure-8 maze task." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
+        <iframe width="677" height="500" src="https://www.youtube.com/embed/BiV5FDGRY-c" title="UMAP manifold (unsupervised) for figure-8 maze task." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
     </div>
 </div>
 <div class="caption">
-    ''
+    
 </div>
 
 
@@ -72,7 +72,6 @@ Affiliations:
         {% include figure.liquid path="assets/img/about/fig4.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 
 
