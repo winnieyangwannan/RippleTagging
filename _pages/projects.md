@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Codes and Demos
+title: Results and Demos
 permalink: /Results and Demos/
 description: Demo codes for cool visualization and analysis.
 nav: true
