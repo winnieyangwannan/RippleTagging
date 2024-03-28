@@ -22,7 +22,7 @@ nav_order: 2
 Wannan Yang, Chen Sun, Roman Huszár, Thomas Hainmueller, Kirill Kiselev, [György Buzsáki](https://buzsakilab.com/wp/), Selection of experience for memory 
 by hippocampal sharp wave ripples. _Science_, (2024).
 
-[Link to the paper]()
+[Link to the paper](https://www.science.org/doi/10.1126/science.adk8261)
 
 
 [Link to the bioRxiv](https://www.biorxiv.org/content/10.1101/2023.11.07.565935v1)

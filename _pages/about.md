@@ -17,6 +17,9 @@ Affiliations:
 
 
 ---
+<br />
+<br />
+<br />
 
 
 How does the brain select what to consolidate during sleep? Our new work sheds light on the brain's mechanism for memory.
@@ -31,7 +34,15 @@ We propose that awake ripples act as a memory tag 🏷️-- the memories that ar
 
 </div>
 
-Using dual sided probes, we were able to record up to 500 neurons simultaneously while animal perform an alternation task on the figure-8 maze.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+Using dual sided probes, we were able to record up to 500 neurons simultaneously while animals perform an alternation task on the figure-8 maze.
 
 
 <div class="row mt-3">
@@ -39,6 +50,13 @@ Using dual sided probes, we were able to record up to 500 neurons simultaneously
         {% include figure.liquid path="assets/img/about/task_3.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
 
 UMAP visualization revealed that population activity of the hippocampus corresponded to a latent space that topologically
 resembled the physical environment. This visual, though beautiful, was not surprising since hippocampus is known to keep
@@ -83,6 +101,13 @@ in a systematic way. ⏳
     </div>
 </div>
 
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
 When animals consume reward, synchronous population events, aka sharp wave ripples, usually take place. Ripples 'replay'
 past experiences. Crucially, with the sensitivity of our methods, we were able to decode not only which places were replayed 
 but also which lap events were replayed. 
@@ -94,6 +119,11 @@ but also which lap events were replayed.
     </div>
 </div>
 
+<br />
+<br />
+<br />
+<br />
+<br />
 
 During NREM sleep 😴, ripples resume their activity. Are awake ripples related to those during subsequent sleep (post-sleep)? 
 We compared their population activities.
@@ -107,7 +137,7 @@ We compared their population activities.
 </div>
 
 The distribution patterns of trial identity during post-sleep were highly correlated with that during maze replay, but not
-with pre-sleep replay. Mixed-effect linear regression analysis confirmed that post-sleep replay pattern were best explained 
+with pre-sleep replay. Mixed-effect linear regression analysis confirmed that post-sleep replay patterns were best explained 
 by that during awake replay. 
 
 <div class="row mt-3">
@@ -115,6 +145,14 @@ by that during awake replay.
         {% include figure.liquid path="assets/img/about/sleep_awake_9.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
+
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
 
 We replicated our main conclusions using 4 different methods – including decoding from the original high dimensional space
 using different distance metrics, decoding from UMAP low-dimensional embedding, as well as PCA space. 
@@ -130,3 +168,13 @@ selectively consolidated numerous times during sleep.
 
 ---
 
+
+# How to cite us ? 
+
+Enjoyed reading this post and found our demo code useful? Our paper can be cited as follows:
+
+Wannan Yang, Chen Sun, Roman Huszár, Thomas Hainmueller, Kirill Kiselev, György Buzsáki. 
+"Selection of experience for memory by hippocampal sharp wave ripple." _Science_ **383**, 1478-1483 (2024).
+
+
+You can access the paper [here](https://www.science.org/doi/10.1126/science.adk8261).
