@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Codes and Demos
-permalink: /Codes and Demos/
+permalink: /Results and Demos/
 description: Demo codes for cool visualization and analysis.
 nav: true
 nav_order: 3
