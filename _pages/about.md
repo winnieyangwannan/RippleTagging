@@ -19,7 +19,6 @@ Affiliations:
 ---
 
 
-
 How does the brain select what to consolidate during sleep? Our new work sheds light on the brain's mechanism for memory.
 We propose that awake ripples act as a memory tag 🏷️-- the memories that are tagged by awake ripples are consolidated during sleep!
 
@@ -66,14 +65,23 @@ As per Heraclitus, “No man ever steps in the same river twice. For it’s not 
 Even as the animal revisits the same places, the brain state is never the same twice, always in perpetual flux, changing
 in a systematic way. ⏳
 
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <iframe width="677" height="500" src="https://www.youtube.com/embed/BiV5FDGRY-c" title="UMAP manifold (unsupervised) for figure-8 maze task." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-</div>
-<div class="caption">
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
 </div>
 
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/manifold_pos_rotation.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
+</div>
 
 When animals consume reward, synchronous population events, aka sharp wave ripples, usually take place. Ripples 'replay'
 past experiences. Crucially, with the sensitivity of our methods, we were able to decode not only which places were replayed 
@@ -87,7 +95,7 @@ but also which lap events were replayed.
 </div>
 
 
-During NREM sleep 😴, ripples resume their activity. Are awake ripples related to those during subsequent sleep? 
+During NREM sleep 😴, ripples resume their activity. Are awake ripples related to those during subsequent sleep (post-sleep)? 
 We compared their population activities.
 
 
@@ -117,7 +125,8 @@ using different distance metrics, decoding from UMAP low-dimensional embedding, 
     </div>
 </div>
 
-
+Taken together, our results suggest that awake ripples act as a memory tag. Experience tagged by the awake ripples are 
+selectively consolidated numerous times during sleep. 
 
 ---
 
