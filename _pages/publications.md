@@ -32,6 +32,7 @@ Wannan Yang, Chen Sun, Roman Huszár, Thomas Hainmueller, Kirill Kiselev, [Györ
 <br />
 <br />
 ---
+
 # Supplementary Materials 
 <object data="../assets//sm.pdf" width="1000" height="1000" type='application/pdf'></object>
 

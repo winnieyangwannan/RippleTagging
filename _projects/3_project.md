@@ -22,4 +22,6 @@ Wannan Yang, Chen Sun, Roman Huszár, Thomas Hainmueller, Kirill Kiselev, Györg
 
 
 
-You can access the paper [here](https://www.science.org/doi/10.1126/science.adk8261).
+
+You can access the paper [here](https://www.science.org/doi/10.1126/science.adk8261)
+and [here](https://winnieyangwannan.github.io/RippleTagging/Paper/).
