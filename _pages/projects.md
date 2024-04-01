@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about
 title: Results and Demos
 permalink: /Results and Demos/
 description: Demo codes for cool visualizations and analyses.
@@ -7,6 +7,8 @@ nav: true
 nav_order: 3
 display_categories: [Colab Notebook, Jupyter Notebook]
 horizontal: false
+social: true # includes social icons at the bottom of the page
+
 ---
 
 <!-- pages/projects.md -->

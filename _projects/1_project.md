@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: about
+social: true # includes social icons at the bottom of the page
 title: 🧠 🎨 1. UMAP Visualization
 description: Demo code to visualizae data with UMAP! 
 img: assets/img/publication_preview/rotation_pos.gif

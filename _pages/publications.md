@@ -1,10 +1,13 @@
 ---
-layout: page
+layout: about
+social: true # includes social icons at the bottom of the page
+
 permalink: /Paper/
 title: Paper
 description: 
 nav: true
 nav_order: 2
+
 ---
 
 <div class="row mt-3">

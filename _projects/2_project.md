@@ -1,6 +1,6 @@
 ---
-layout: page
-title: 🧠 🔐 2. Trial Decoding
+layout: about
+social: true # includes social icons at the bottom of the pagetitle: 🧠 🔐 2. Trial Decoding
 description: Demo codes to decode event identity with 4 different methods. 
 img: assets/img/publication_preview/rotation_trial.gif
 importance: 2

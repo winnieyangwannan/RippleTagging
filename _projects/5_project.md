@@ -1,6 +1,6 @@
 ---
-layout: page
-title: 🧠 🎨 1. UMAP visualization
+layout: about
+social: true # includes social icons at the bottom of the pagetitle: 🧠 🎨 1. UMAP visualization
 description: Use UMAP to visualize your own data!
 img: 
 importance: 2

@@ -27,12 +27,14 @@ impressum_path: # set to path to include impressum link in the footer, use the s
 # -----------------------------------------------------------------------------
 
 # repo color theme
-repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_light: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
   enabled: true
-  theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
+  theme_light: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
+
+
 
 # -----------------------------------------------------------------------------
 # RSS Feed
@@ -173,7 +175,8 @@ collections:
     permalink: /news/:path/
   projects:
     output: true
-    permalink: /Results and Demos/:path/
+#    permalink: /Results_and_Demos/:path/
+
 
 announcements:
   enabled: true

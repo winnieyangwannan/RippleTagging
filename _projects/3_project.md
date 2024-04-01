@@ -1,6 +1,6 @@
 ---
-layout: page
-title: 🧠 😴 3. Decode Ripple Events
+layout: about
+social: true # includes social icons at the bottom of the pagesocial: true # includes social icons at the bottom of the pagetitle: 🧠 😴 3. Decode Ripple Events
 description: Decode the trial and position content ripple events
 img:
 importance: 3
