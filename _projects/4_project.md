@@ -1,6 +1,7 @@
 ---
 layout: about
-social: true # includes social icons at the bottom of the pagetitle: 🧠 🧐 4. Decoding Consistency
+social: true # includes social icons at the bottom of the page
+title: 🧠 🧐 4. Decoding Consistency
 description: Test decoding consistency between high- and low-dimensional space!
 img: 
 importance: 4

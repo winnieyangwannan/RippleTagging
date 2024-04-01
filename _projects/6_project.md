@@ -1,6 +1,7 @@
 ---
 layout: about
-social: true # includes social icons at the bottom of the pagetitle: 🛠️ Set up
+social: true # includes social icons at the bottom of the page
+title: 🛠️ Set up
 description: Guide to set up conda environment 
 img: assets/img/conda.png
 importance: 1
