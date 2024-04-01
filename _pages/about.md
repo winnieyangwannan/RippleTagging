@@ -6,7 +6,7 @@ news: false # includes a list of news items
 paper: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-Wannan Yang<sup>1,3</sup>, Chen Sun<sup>2</sup>, Roman Huszár<sup>1,3</sup>, Thomas Hainmueller<sup>1,4</sup>, Kirill Kiselev<sup>3</sup>, György Buzsáki<sup>1,3*</sup>
+Wannan Yang<sup>1,3</sup>, Chen Sun<sup>2</sup>, Roman Huszár<sup>1,3</sup>, Thomas Hainmueller<sup>1,4</sup>, Kirill Kiselev<sup>3</sup>, [György Buzsáki<sup>1,3*</sup>](https://buzsakilab.com/wp/buzsaki/)
 
 Affiliations:
 
@@ -22,8 +22,10 @@ Affiliations:
 <br />
 
 
-How does the brain select what to consolidate during sleep? Our new work sheds light on the brain's mechanism for memory.
-We propose that awake ripples act as a memory tag 🏷️-- the memories that are tagged by awake ripples are consolidated during sleep!
+How does the brain select what to consolidate during sleep? Our new work sheds light on the brain's mechanism for selective
+memory consolidation.
+We propose that awake ripples act as a memory tag 🏷️-- the memories that are tagged by awake ripples are selectively consolidated
+during sleep!
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -42,7 +44,8 @@ We propose that awake ripples act as a memory tag 🏷️-- the memories that ar
 <br />
 
 
-Using dual sided probes, we were able to record up to 500 neurons simultaneously while animals perform an alternation task on the figure-8 maze.
+Using dual sided probes, we were able to record up to 500 neurons simultaneously while animals perform an alternation task on
+the figure-8 maze.
 
 
 <div class="row mt-3">
@@ -108,8 +111,8 @@ in a systematic way. ⏳
 <br />
 <br />
 
-When animals consume reward, synchronous population events, aka sharp wave ripples, usually take place. Ripples 'replay'
-past experiences. Crucially, with the sensitivity of our methods, we were able to decode not only which places were replayed 
+When animals consume reward, synchronous population events, aka sharp wave ripples, usually take place. Ripples are known to
+'replay' past experiences. Crucially,  we were able to decode not only which places were replayed 
 but also which lap events were replayed. 
 
 
@@ -138,7 +141,8 @@ We compared their population activities.
 
 The distribution patterns of trial identity during post-sleep were highly correlated with that during maze replay, but not
 with pre-sleep replay. Mixed-effect linear regression analysis confirmed that post-sleep replay patterns were best explained 
-by that during awake replay. 
+by that during awake replay. The trials that were replayed more during awake ripples were selectively consolidated more 
+during sleep!!
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">

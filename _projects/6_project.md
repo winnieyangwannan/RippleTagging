@@ -9,6 +9,13 @@ category: Jupyter Notebook
 
 This domo is still a working in progress...
 
+---
+```python
+# Change the theme color of jupyter notebook
+pip install jupyterthemes
+jt -t oceans16
+
+```
 
 
 ---
