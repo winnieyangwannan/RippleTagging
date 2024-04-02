@@ -20,7 +20,13 @@ Enjoyed reading this post and found our demo code useful? It can be cited as fol
 Wannan Yang, Chen Sun, Roman Huszár, Thomas Hainmueller, Kirill Kiselev, György Buzsáki. 
 "Selection of experience for memory by hippocampal sharp wave ripple." _Science_ **383**, 1478-1483 (2024).
 
-
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="/assets/img/publication_preview/science.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
+</div>
 
 You can access the paper [here](https://www.science.org/doi/10.1126/science.adk8261)
 and [here](https://winnieyangwannan.github.io/RippleTagging/Paper/).

@@ -135,17 +135,25 @@ What was really surprising and unexpected was when we colored the neural manifol
 of states that corresponded to trial sequences. This means that population activity in the hippocampus indeed encode the sequence 
 of different events!
 
-Heraclitus once said that “No man ever steps in the same river twice. For it’s not the same river and he’s not the same man.”
-Well, the brain is also not the same brain! Even though the animal visited the same places many times repeatedly, 
-the neural activity was never the same again! It changes each time. Moreover, it changes in a very systematic way, organized in the same order as the unfolding of the events in time!
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <iframe width="677" height="500" src="https://www.youtube.com/embed/BiV5FDGRY-c" title="UMAP manifold (unsupervised) for figure-8 maze task." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
     </div>
 </div>
 <div class="caption">
-    
+</div>
+
+Heraclitus once said that “No man ever steps in the same river twice. For it’s not the same river and he’s not the same man.”
+Well, the brain is also not the same brain! Even though the animal visited the same places many times repeatedly, 
+the neural activity was never the same again! It changes each time ⏳. Moreover, it changes in a very systematic way, organized in the same order as the unfolding of the events in time!
+
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/manifold_pos_rotation.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
 </div>
 
 
@@ -247,7 +255,13 @@ Enjoyed reading this post and found our demo code useful? Our paper can be cited
 Wannan Yang, Chen Sun, Roman Huszár, Thomas Hainmueller, Kirill Kiselev, György Buzsáki. 
 "Selection of experience for memory by hippocampal sharp wave ripple." _Science_ **383**, 1478-1483 (2024).
 
-
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="/assets/img/publication_preview/science.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
+</div>
 
 You can access the paper [here](https://www.science.org/doi/10.1126/science.adk8261)
 and [here](https://winnieyangwannan.github.io/RippleTagging/Paper/).

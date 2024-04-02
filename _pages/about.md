@@ -6,6 +6,14 @@ news: false # includes a list of news items
 paper: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="/assets/img/publication_preview/science.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
+</div>
 Wannan Yang<sup>1,3</sup>, Chen Sun<sup>2</sup>, Roman Huszár<sup>1,3</sup>, Thomas Hainmueller<sup>1,4</sup>, Kirill Kiselev<sup>3</sup>, [György Buzsáki<sup>1,3*</sup>](https://buzsakilab.com/wp/buzsaki/)
 
 Affiliations:
@@ -17,6 +25,8 @@ Affiliations:
 
 
 ---
+
+
 <br />
 <br />
 <br />
