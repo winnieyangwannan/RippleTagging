@@ -27,6 +27,8 @@ Wannan Yang, Chen Sun, Roman Huszár, Thomas Hainmueller, Kirill Kiselev, [Györ
 
 [Paper link](https://www.science.org/doi/10.1126/science.adk8261)
 
+[Buzsaki lab link](https://buzsakilab.com/wp/publications/)
+
 # The paper
 
 <object data="../assets//main.pdf" width="1000" height="1000" type='application/pdf'></object>

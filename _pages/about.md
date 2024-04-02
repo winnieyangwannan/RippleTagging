@@ -191,5 +191,6 @@ Wannan Yang, Chen Sun, Roman Huszár, Thomas Hainmueller, Kirill Kiselev, Györg
 "Selection of experience for memory by hippocampal sharp wave ripple." _Science_ **383**, 1478-1483 (2024).
 
 
-You can access the paper [here](https://www.science.org/doi/10.1126/science.adk8261)
-and [here](https://winnieyangwannan.github.io/RippleTagging/Paper/).
+You can access the paper from the _Science_ website [here](https://www.science.org/doi/10.1126/science.adk8261)
+, the project website [here](https://winnieyangwannan.github.io/RippleTagging/Paper/),
+or from the Buzsaki lab website [here](https://buzsakilab.com/wp/publications/). 
