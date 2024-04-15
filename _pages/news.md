@@ -9,6 +9,21 @@ social: true # includes social icons at the bottom of the page
 
 ---
 
+[ScienceNet](https://news.sciencenet.cn/htmlnews/2024/4/520843.shtm)
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="/_pages/img_3.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+
+</div>
+
+<br />
+<br />
+<br />
+
+
+
+
 [NBC NEWS](https://www.nbcnews.com/health/health-news/brain-chooses-memories-sleep-rcna145159)
 
 <div class="row mt-3">
