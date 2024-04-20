@@ -1,7 +1,7 @@
 ---
 layout: about
-permalink: /Q&A/
-title: Q&A
+permalink: /Post/
+title: Post
 nav: true
 nav_order: 1
 pagination:

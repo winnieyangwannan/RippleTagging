@@ -23,7 +23,7 @@ hr {
   border-top: 1px solid var(--global-divider-color);
 }
 body{
-  font-size:2rem
+  font-size:1.5rem
 }
 
 table {
@@ -439,7 +439,7 @@ ul.task-list input[type="checkbox"] {
 // Footer
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
-  font-size: 2rem;
+  font-size: 1rem;
 
   .container {
     color: var(--global-footer-text-color);
@@ -511,11 +511,11 @@ footer.sticky-bottom {
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 3rem;
-  font-size: 5rem;
+  font-size: 3rem;
 
   h1 {
     color: var(--global-theme-color);
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 
@@ -542,7 +542,7 @@ footer.sticky-bottom {
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
-  font-size: 4rem;
+  font-size: 3rem;
 
 }
 
@@ -574,7 +574,7 @@ footer.sticky-bottom {
     a {
       color: var(--global-text-color);
       text-decoration: none;
-      font-size: 4rem;
+      font-size: 2rem;
 
       &:hover {
         color: var(--global-theme-color);
