@@ -10,6 +10,9 @@ social: true # includes social icons at the bottom of the page
 ---
 
 
+<br />
+<br />
+<br />
 
 ### Author interview (in Chinese)
 [LINK](https://m.bilibili.com/video/BV1Zt421c7QS?vd_source=2ca7452e05e45947c2c40c6d9e492573)
@@ -28,6 +31,7 @@ I also shared my PhD life at the Buzsaki lab :)
 <br />
 <br />
 
+---
 
 ### ScienceNet
 [LINK](https://news.sciencenet.cn/htmlnews/2024/4/520843.shtm)
@@ -42,7 +46,7 @@ I also shared my PhD life at the Buzsaki lab :)
 <br />
 <br />
 
-
+---
 
 
 ### NBC NEWS
@@ -58,6 +62,8 @@ I also shared my PhD life at the Buzsaki lab :)
 <br />
 <br />
 <br />
+
+---
 
 ### ScienceDaily
 [LINK](https://www.sciencedaily.com/releases/2024/03/240328162613.htm#google_vignette)
