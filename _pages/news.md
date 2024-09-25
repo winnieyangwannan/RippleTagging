@@ -14,7 +14,22 @@ social: true # includes social icons at the bottom of the page
 <br />
 <br />
 
-### New
+### Quanta 
+
+[LINK](https://www.quantamagazine.org/electric-ripples-in-the-resting-brain-tag-memories-for-storage-20240521/)
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="/assets/img/media/quanta.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+
+</div>
+
+<br />
+<br />
+<br />
+
+
 
 ### Author interview (in Chinese)
 [LINK](https://m.bilibili.com/video/BV1Zt421c7QS?vd_source=2ca7452e05e45947c2c40c6d9e492573)
