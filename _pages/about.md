@@ -16,14 +16,6 @@ social: true # includes social icons at the bottom of the page
 </div>
 Wannan Yang<sup>1,3</sup>, Chen Sun<sup>2</sup>, Roman Huszár<sup>1,3</sup>, Thomas Hainmueller<sup>1,4</sup>, Kirill Kiselev<sup>3</sup>, [György Buzsáki<sup>1,3*</sup>](https://buzsakilab.com/wp/buzsaki/)
 
-Affiliations:
-
-1.Neuroscience Institute and Department of Neurology, NYU Grossman School of Medicine, New York University, New York, USA,
-2.Mila - Quebec AI Institute, Montréal, Canada,
-3.Center for Neural Science, New York University, New York, USA,
-4.Department of Psychiatry, New York University Langone Medical Center, New York, USA  
-
-
 ---
 
 
