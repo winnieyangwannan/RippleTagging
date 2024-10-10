@@ -14,7 +14,7 @@ social: true # includes social icons at the bottom of the page
     <div class="col-sm mt-3 mt-md-0">
     </div>
 </div>
-Wannan Yang<sup>1,3</sup>, Chen Sun<sup>2</sup>, Roman Huszár<sup>1,3</sup>, Thomas Hainmueller<sup>1,4</sup>, Kirill Kiselev<sup>3</sup>, [György Buzsáki<sup>1,3*</sup>](https://buzsakilab.com/wp/buzsaki/)
+[Wannan Yang](https://winnieyangwannan.github.io/)<sup>1,3</sup>, Chen Sun<sup>2</sup>, Roman Huszár<sup>1,3</sup>, Thomas Hainmueller<sup>1,4</sup>, Kirill Kiselev<sup>3</sup>, [György Buzsáki<sup>1,3*</sup>](https://buzsakilab.com/wp/buzsaki/)
 
 ---
 
@@ -179,7 +179,7 @@ selectively consolidated numerous times during sleep.
 
 Enjoyed reading this post and found our demo code useful? Our paper can be cited as follows:
 
-Wannan Yang, Chen Sun, Roman Huszár, Thomas Hainmueller, Kirill Kiselev, György Buzsáki. 
+[Wannan Yang](https://winnieyangwannan.github.io/), Chen Sun, Roman Huszár, Thomas Hainmueller, Kirill Kiselev, György Buzsáki. 
 "Selection of experience for memory by hippocampal sharp wave ripple." _Science_ **383**, 1478-1483 (2024).
 
 
