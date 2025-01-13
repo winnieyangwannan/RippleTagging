@@ -89,14 +89,6 @@ Even as the animal revisits the same places, the brain state is never the same t
 in a systematic way. ⏳
 
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <iframe width="677" height="500" src="https://www.youtube.com/embed/ceFFEmkxTLg?si=kU-ow7uI1a8Ws0Tnc" title="Memory Gate" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-    </div>
-</div>
-
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -171,6 +163,25 @@ using different distance metrics, decoding from UMAP low-dimensional embedding, 
 
 Taken together, our results suggest that awake ripples act as a memory tag. Experience tagged by the awake ripples are 
 selectively consolidated numerous times during sleep. 
+
+---
+
+<br />
+<br />
+
+- Check out this amazing video covering our paper! It serves as a great intro if you are not familiar with the field.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <iframe width="677" height="500" src="https://www.youtube.com/embed/ceFFEmkxTLg?si=kU-ow7uI1a8Ws0Tnc" title="Memory Gate" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
+</div>
+
+<br />
+<br />
+
 
 ---
 
