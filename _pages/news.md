@@ -12,7 +12,7 @@ social: true # includes social icons at the bottom of the page
 <br />
 <br />
 
-### An amazing Youtube video covering the core ideas in our paper
+## An amazing Youtube video covering the core ideas in our paper
 - If you are not an expert in memory neuroscience, this video serves as an excellent intro to our paper!
 - The explanations in this video is both very easy to understand and scientifically accurate!
 
@@ -30,7 +30,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 
-### NeuReport
+## NeuReport
 [LINK](https://www.youtube.com/watch?v=wlmqjLPpF0A)
 
 - I was recently invited to give a talk at NeuReport about our paper. The presentation was in English.
@@ -48,7 +48,7 @@ social: true # includes social icons at the bottom of the page
 
 ---
 
-### Quanta 
+## Quanta 
 
 [LINK](https://www.quantamagazine.org/electric-ripples-in-the-resting-brain-tag-memories-for-storage-20240521/)
 
@@ -69,7 +69,7 @@ favorite scientists in the field of learning and memory: Loren Frank,  Michaël 
 
 ---
 
-### Author interview (in Chinese)
+## Author interview (in Chinese)
 [LINK](https://m.bilibili.com/video/BV1Zt421c7QS?vd_source=2ca7452e05e45947c2c40c6d9e492573)
 
 - In this video with Bozhi on Bilibili, I talked about the main results of our paper, as well as the stories behind the paper.
@@ -87,7 +87,7 @@ favorite scientists in the field of learning and memory: Loren Frank,  Michaël 
 
 ---
 
-### ScienceNet
+## ScienceNet
 [LINK](https://news.sciencenet.cn/htmlnews/2024/4/520843.shtm)
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -103,7 +103,7 @@ favorite scientists in the field of learning and memory: Loren Frank,  Michaël 
 ---
 
 
-### NBC NEWS
+## NBC NEWS
 [LINK](https://www.nbcnews.com/health/health-news/brain-chooses-memories-sleep-rcna145159)
 
 <div class="row mt-3">
@@ -119,7 +119,7 @@ favorite scientists in the field of learning and memory: Loren Frank,  Michaël 
 
 ---
 
-### ScienceDaily
+## ScienceDaily
 [LINK](https://www.sciencedaily.com/releases/2024/03/240328162613.htm#google_vignette)
 
 <div class="row mt-3">
