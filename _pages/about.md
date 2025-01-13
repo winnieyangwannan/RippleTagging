@@ -91,7 +91,7 @@ in a systematic way. ⏳
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        <iframe width="677" height="500" src="https://www.youtube.com/embed/BiV5FDGRY-c" title="UMAP manifold (unsupervised) for figure-8 maze task." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="677" height="500" src="https://www.youtube.com/embed/ceFFEmkxTLg?si=kU-ow7uI1a8Ws0Tnc" title="Memory Gate" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>

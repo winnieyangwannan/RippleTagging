@@ -12,20 +12,28 @@ social: true # includes social icons at the bottom of the page
 <br />
 <br />
 
-### An amazing Youtube video on our paper
+### An amazing Youtube video covering the core ideas in our paper
+- If you are not an expert in memory neuroscience, this video serves as an excellent intro to our paper!
+- The explanations in this video is both very easy to understand and scientifically accurate!
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        <iframe width="677" height="500" src="https://www.youtube.com/watch?v=ceFFEmkxTLg&t=11s&ab_channel=ArtemKirsanov" title="UMAP manifold (unsupervised) for figure-8 maze task." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="677" height="500" src="https://www.youtube.com/embed/ceFFEmkxTLg?si=kU-ow7uI1a8Ws0Tnc" title="UMAP manifold (unsupervised) for figure-8 maze task." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
 </div>
+<br />
+<br />
+<br />
+
+---
+
 
 ### NeuReport
 [LINK](https://www.youtube.com/watch?v=wlmqjLPpF0A)
 
-I was recently invited to give a talk at NeuReport about our paper. The presentation was in English.
+- I was recently invited to give a talk at NeuReport about our paper. The presentation was in English.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -44,7 +52,7 @@ I was recently invited to give a talk at NeuReport about our paper. The presenta
 
 [LINK](https://www.quantamagazine.org/electric-ripples-in-the-resting-brain-tag-memories-for-storage-20240521/)
 
-Our study has been highlighted in the Quanta Magazine. This article is a fun piece with insightful comments from  some of my
+- Our study has been highlighted in the Quanta Magazine. This article is a fun piece with insightful comments from  some of my
 favorite scientists in the field of learning and memory: Loren Frank,  Michaël Zugaro, Danial Bendor and Shantanu Jadhav.
  
 
@@ -64,7 +72,7 @@ favorite scientists in the field of learning and memory: Loren Frank,  Michaël 
 ### Author interview (in Chinese)
 [LINK](https://m.bilibili.com/video/BV1Zt421c7QS?vd_source=2ca7452e05e45947c2c40c6d9e492573)
 
-In this video with Bozhi on Bilibili, I talked about the main results of our paper, as well as the stories behind the paper.
+- In this video with Bozhi on Bilibili, I talked about the main results of our paper, as well as the stories behind the paper.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
