@@ -89,6 +89,8 @@ favorite scientists in the field of learning and memory: Loren Frank,  Michaël 
 
 ## ScienceNet
 [LINK](https://news.sciencenet.cn/htmlnews/2024/4/520843.shtm)
+- An interview about the story behind the paper as well as my story growing up in science.
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="/_pages/img_3.png" class="img-fluid rounded z-depth-1" zoomable=true %}
